@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
 
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 .menu {
   display: flex;
   flex-direction: column;
+  align-items: end;
   gap: 15px;
   padding: 20px;
   background-color: #e0dfdf; /* optional background if needed */
 }
 
+.reminders{
+  display: flex;
+  width:100%
+}
+
+.noti{
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
 .menu-item {
   background-color: #BA9898;
   color: #FFFFFF;
   width: 220px;
   border-radius: 20px;
   font-family: 'Instrument Serif', serif;
-  font-size: 22px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +48,7 @@
 
 .newhabit {
   height: auto;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   gap: 10px;
   cursor: default;
 }

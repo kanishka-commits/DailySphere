@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.line .left {
+    height: 100vh;
+    width: 2px;
+    left: 20vw;
+    position: absolute;
+    background-color: #7D3434;
+}
+
+.line .right {
+    height: 100vh;
+    width: 2px;
+    right: 20vw;
+    position: absolute;
+    background-color: #7D3434;
+}
+
+.home {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);  
+    margin-top: 30px;
+}
+
+a{
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Kapakana', cursive;
+    font-size: 100px;
+    color:#7D3434;
+   
+}
