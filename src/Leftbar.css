@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+.menu-item {
+    background-color: #BA9898;
+    color: #FFFFFF;
+    width: 200px;
+    border-radius: 20px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newhabit {
+    height: 140px;
+    margin-top: 30px;
+}
+
+input::placeholder{
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+}
+
+input{
+    background-color: #FFFFFF;
+    color:#BA9898;
+    border:none;
+    border-radius: 20px;
+    margin: 10px 0 12px 0;
+}
+
+button{
+    color: #FFFFFF;
+    background-color: #BA9898;
+    border: none;
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+
+}
+
+.journal,
+.theme,
+.badges {
+    height: 80px;
+}
+
+.r-n,
+.sotd {
+    height: 140px;
+}
+
+.td {
+    font-style: italic;
+}
