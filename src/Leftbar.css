@@ -10,7 +10,7 @@
   align-items: end;
   gap: 15px;
   padding: 20px;
-  background-color: #e0dfdf; /* optional background if needed */
+  /* background-color: #e0dfdf;  */
 }
 
 .reminders{
@@ -62,7 +62,7 @@
 }
 
 .newhabit input {
-  background-color: #FFFFFF;
+  background-color: #D9D9D9;
   color: #BA9898;
   border: none;
   padding: 8px 12px;
