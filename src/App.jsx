@@ -3,7 +3,7 @@ import './App.css'
 import Leftbar from './Leftbar'
 import Sotd from './Sotd'
 import Hero from './Hero'
-
+import Task from './Task'
 
 function App() {
     return(
@@ -11,6 +11,7 @@ function App() {
      <Sotd/>
      <Hero/>
      <Leftbar/>
+     <Task/>
     </>
     )
    
